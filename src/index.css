@@ -37,3 +37,22 @@ main {
 header h1 {
   text-align: center;
 }
+
+/* CharacterList */
+.character-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  width: 30%;
+  margin: 10px;
+}
+.card-title{
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.card-subtitle{
+  font-size: 1.1rem;
+  line-height: 2;
+}
