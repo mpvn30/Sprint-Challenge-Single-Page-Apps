@@ -1,10 +1,19 @@
-import React, { useState } from "react";
+import React from 'react';
+import { InputGroup, InputGroupText, InputGroupAddon, Input } from 'reactstrap';
 
-export default function SearchForm() {
- 
+const SearchForm = (props) => {
   return (
-    <section className="search-form">
-     // Add a search form here
-    </section>
+    <div>
+      <InputGroup>
+        <InputGroupAddon addonType="prepend">
+          <InputGroupText>Search</InputGroupText>
+        </InputGroupAddon>
+        <Input />
+      </InputGroup>
+    </div>
   );
-}
+};
+
+export default SearchForm;
+
+
