@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client-side routing joins different routes(or URLs) of multiple pages and allows it to be renderred in a single page application. By doing this, we are allowing the browser to render components within a single page.
 
 ## Project Set Up
 
